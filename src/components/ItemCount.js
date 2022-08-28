@@ -18,11 +18,13 @@ const ItemCount = ({ stock, setStock, cartCounter }) => {
     };
 
     return (
-        <div>
-            <h3>Items Seleccionados</h3>
-            <button onClick={handleAddItems}>+</button>
-            <h4>{itemsCounter}</h4>
-            <button onClick={handleRemoveItems} disabled={!itemsCounter ? true : false}>-</button>
+        <div className="counterDiv">
+            <h3 className="counterTitle">Items Seleccionados</h3>
+            <div className="counterButtonsDiv">
+                <button onClick={handleAddItems}>+</button>
+                <h4>{itemsCounter}</h4>
+                <button onClick={handleRemoveItems} disabled={!itemsCounter ? true : false}>-</button>
+            </div>
         </div>
     );
 };

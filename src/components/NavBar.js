@@ -4,7 +4,7 @@ import CartWidget from './CartWidget';
 const NavBar = () =>
     <div className="navBarPrincipal" >
         <div className='logoDiv'>
-            <img className='logoNavBar' src={basketLogo} />
+            <img className='logo' src={basketLogo} />
             <h1 className='navBarBrand'>tiendApp</h1>
         </div>
         <div className="linksNavBarDiv">
@@ -13,7 +13,7 @@ const NavBar = () =>
             <a href="electronica">Electronica</a>
             <a href="libros">Libros</a>
         </div>
-        <div className='logInDiv'>
+        <div className="logInDiv">
             <a href="logIn">Log In</a>
         </div>
         <div className='cartWidgetDiv'>

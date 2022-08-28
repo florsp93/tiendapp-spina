@@ -4,46 +4,61 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .navBarPrincipal a {
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-size: 15px;
 }
 
-.linksNavBarDiv a:hover {
-    color: black;
-}
 
 .navBarPrincipal a.selected {
     background-color: rgb(180, 119, 157);
+    border-radius: 5px;
     color: white;
 }
 
-.navBarPrincipal a.selected:hover {
-    color: black;
-
-}
-
-.logoDiv {
-    display: flex
-}
-
+.linksNavBarDiv a:hover,
 .logInDiv a:hover {
-    color: black;
+    transform: scale(0.85);
 }
-
 
 .navBarBrand {
     margin: 0;
 }
 
-.logoNavBar {
+.logo {
     height: 50px;
     width: 50px;
+}
+
+/* //////////////// NAV BAR SECCIONES //////////////// */
+
+.logoDiv {
+    display: flex;
+
+}
+
+.linksNavBarDiv {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logInDiv {
+    display: flex;
+    width: 8%;
+}
+
+
+.cartWidgetDiv {
+    width: 5%;
+    align-content: center;
 }
 
 .cartWidgetDiv:hover {

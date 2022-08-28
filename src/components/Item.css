@@ -1,0 +1,11 @@
+.itemDiv {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.itemImage {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}

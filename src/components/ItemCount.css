@@ -1,0 +1,42 @@
+.counterTitle {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: medium;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.counterDiv {
+    margin: 40px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 400px;
+}
+
+.counterButtonsDiv {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.counterButtonsDiv button {
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(159, 54, 180);
+}
+
+.counterButtonsDiv button:disabled {
+    background-color: rgb(231, 231, 231);
+    color: rgb(206, 206, 206);
+}
+
+.counterButtonsDiv button:disabled:hover {
+    cursor: not-allowed;
+}
+
+.counterButtonsDiv button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
