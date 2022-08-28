@@ -2,7 +2,7 @@ import basketLogo from '../assets/navbar-logo.png';
 import CartWidget from './CartWidget';
 
 const NavBar = () =>
-    <div class="navBarPrincipal">
+    <div className="navBarPrincipal" >
         <div className='logoDiv'>
             <img className='logoNavBar' src={basketLogo} />
             <h1 className='navBarBrand'>tiendApp</h1>
@@ -19,6 +19,6 @@ const NavBar = () =>
         <div className='cartWidgetDiv'>
             <CartWidget />
         </div>
-    </div>
+    </div >;
 
 export default NavBar;

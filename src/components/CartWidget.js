@@ -1,5 +1,5 @@
-import shoppingCartIcons from '../assets/carrito-logo.png'
+import shoppingCartIcons from '../assets/carrito-logo.png';
 
-const CartWidget = () => <div><img className='carritoLogo' src={shoppingCartIcons} /></div>
+const CartWidget = () => <div><img className='carritoLogo' src={shoppingCartIcons} /></div>;
 
 export default CartWidget;
