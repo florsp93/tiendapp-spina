@@ -16,7 +16,6 @@
 
 .linksNavBarDiv a:hover {
     color: black;
-    padding-bottom: 2px solid rgb(226, 202, 217);
 }
 
 .navBarPrincipal a.selected {
@@ -26,25 +25,28 @@
 
 .navBarPrincipal a.selected:hover {
     color: black;
-    padding-bottom: 2px solid rgb(226, 202, 217);
-    ;
+
 }
 
 .logoDiv {
     display: flex
 }
 
+.logInDiv a:hover {
+    color: black;
+}
+
+
 .navBarBrand {
     margin: 0;
 }
 
-.inicioNavBar {}
-
-.linksNavBarDiv {}
-
-.logInDiv {}
-
 .logoNavBar {
     height: 50px;
     width: 50px;
+}
+
+.cartWidgetDiv:hover {
+    transform: scale(0.8);
+    cursor: pointer;
 }

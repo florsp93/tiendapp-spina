@@ -5,6 +5,8 @@ import App from './App';
 
 import reportWebVitals from './reportWebVitals';
 
+import './components/ItemListContainer.css'
+import './components/CartWidget.css'
 import './components/NavBar.css'
 import './index.css';
 import './App.css';
